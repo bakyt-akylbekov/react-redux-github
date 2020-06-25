@@ -2,7 +2,6 @@ import React from 'react'
 import Markdown from 'markdown-to-jsx'
 import { useSelector } from 'react-redux'
 import HashLoader from 'react-spinners/HashLoader'
-import '../assets/scss/readme.scss'
 
 const Readme = () => {
   const readme = useSelector((s) => s.reposMain.readme)
